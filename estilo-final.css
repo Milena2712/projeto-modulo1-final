@@ -1,0 +1,35 @@
+body{
+    background-image: url(./img/zeca.jpg);
+    background-size:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.comando{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color: #000000;    
+    background-color: rgba(197, 197, 197, 0.699);   
+    font-size: 30px;
+    font-family: American Typewriter, serif;
+    font-weight: bold;
+    height: 250px;
+    border-radius: 50px;
+    
+}
+
+.comando a{
+    color: #000000;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.comando a:hover{
+    color: red;
+    font-size: 20px;
+}
